@@ -22,7 +22,7 @@ commande pour s'ajouter: sudo adduser $USER dialout (La variable d'envirionnemen
 
 	picocom -b 115200 /dev/ttyUSB0
 	
-Après les étapes mentionnées nous que la date de compilation de notre U-boot cooresponds bien à celle que nous avons réaliser au lab12
+Après les étapes mentionnées nous vérifions que la date de compilation de notre U-boot cooresponds bien à celle que nous avons réaliser au lab12
 Loading Environment from MMC... OK (chargement du bootloader via la MMC et non la EMMC qui est la mémoire embarquée sur la carte donc c'est bon on a booter avec notre bootloader stocké dans la sd)
 
 8. reset de la carte pour que ça marche
